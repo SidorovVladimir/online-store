@@ -23,7 +23,7 @@ export const BasketDevice = sequelize.define(
 )
 
 export const Device = sequelize.define(
-  'divice', {
+  'device', {
     id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
     name: { type: DataTypes.STRING, unique: true, allowNull: false },
     price: { type: DataTypes.INTEGER, allowNull: false },
@@ -91,7 +91,7 @@ BasketDevice.belongsTo(Device)
 // BasketDevice.hasOne(Device);
 // Device.belongsTo(BasketDevice);
 
-Device.hasMany(DeviceInfo)
+Device.hasMany(DeviceInfo, { as: 'info' });
 DeviceInfo.belongsTo(Device)
 
 Type.belongsToMany(Brand, { through: TypeBrand })

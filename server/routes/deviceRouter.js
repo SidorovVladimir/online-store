@@ -1,9 +1,11 @@
 import { Router } from 'express';
+import { create, getAll, getOne } from '../controllers/deviceController.js';
+import checkRole from '../middleware/checkRoleMiddleware.js';
 
 const deviceRouter = new Router();
 
-deviceRouter.post('/',)
-deviceRouter.get('/',)
-deviceRouter.get('/:id',)
+deviceRouter.post('/', checkRole('ADMIN'), create);
+deviceRouter.get('/', getAll);
+deviceRouter.get('/:id', getOne);
 
 export default deviceRouter;
