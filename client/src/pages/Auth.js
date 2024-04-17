@@ -1,10 +1,14 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const Auth = () => {
   return (
-    <div>
+    <Container
+      className="justify-content-center align-items-center d-flex"
+      style={{height: window.innerHeight - 54}}
+    >
       AUTH
-    </div>
+    </Container>
   )
 };
 
