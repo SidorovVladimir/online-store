@@ -1,6 +1,8 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import TypeBar from "../components/TypeBar.jsx";
+import BrandBar from "../components/BrandBar.jsx";
+import DeviceList from "../components/DeviceList.jsx";
 
 const Shop = () => {
   return (
@@ -10,6 +12,8 @@ const Shop = () => {
           <TypeBar />
         </Col>
         <Col md={9}>
+            <BrandBar />
+            <DeviceList />
         </Col>
       </Row>
     </Container>
