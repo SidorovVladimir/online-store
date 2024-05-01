@@ -15,10 +15,16 @@ export default class DeviceStore {
       { id: 4, name: 'Asus' },
     ];
     this._devices = [
-      { id: 1, name: 'Iphone 12pro', price: 250000, rating: 5, img: 'https://www.purposechurch.com' },
-      { id: 2, name: 'Iphone 12pro', price: 250000, rating: 5, img: 'https://www.purposechurch.com' },
-      { id: 3, name: 'Iphone 12pro', price: 250000, rating: 5, img: 'https://www.purposechurch.com' },
-      { id: 4, name: 'Iphone 12pro', price: 250000, rating: 5, img: 'https://www.purposechurch.com' },
+      { id: 1, name: 'Iphone 12pro', price: 250000, rating: 5, img: 'https://shop.mts.ru/upload/images/smartfon-apple-iphone-14-1.jpg' },
+      { id: 2, name: 'Iphone 12pro', price: 250000, rating: 5, img: 'https://shop.mts.ru/upload/images/smartfon-apple-iphone-14-1.jpg' },
+      { id: 3, name: 'Iphone 12pro', price: 250000, rating: 5, img: 'https://shop.mts.ru/upload/images/smartfon-apple-iphone-14-1.jpg' },
+      { id: 4, name: 'Iphone 12pro', price: 250000, rating: 5, img: 'https://shop.mts.ru/upload/images/smartfon-apple-iphone-14-1.jpg' },
+      { id: 5, name: 'Iphone 12pro', price: 250000, rating: 5, img: 'https://shop.mts.ru/upload/images/smartfon-apple-iphone-14-1.jpg' },
+      { id: 6, name: 'Iphone 12pro', price: 250000, rating: 5, img: 'https://shop.mts.ru/upload/images/smartfon-apple-iphone-14-1.jpg' },
+      { id: 7, name: 'Iphone 12pro', price: 250000, rating: 5, img: 'https://shop.mts.ru/upload/images/smartfon-apple-iphone-14-1.jpg' },
+      { id: 8, name: 'Iphone 12pro', price: 250000, rating: 5, img: 'https://shop.mts.ru/upload/images/smartfon-apple-iphone-14-1.jpg' },
+      { id: 9, name: 'Iphone 12pro', price: 250000, rating: 5, img: 'https://shop.mts.ru/upload/images/smartfon-apple-iphone-14-1.jpg' },
+      { id: 10, name: 'Iphone 12pro', price: 250000, rating: 5, img: 'https://shop.mts.ru/upload/images/smartfon-apple-iphone-14-1.jpg' },
     ];
 
     this._selectedType = {};
