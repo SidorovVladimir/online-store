@@ -12,7 +12,7 @@ import router from './routes/index.js';
 
 import errorHandler from './middleware/ErrorHandlingMiddleware.js';
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
